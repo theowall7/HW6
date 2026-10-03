@@ -26,16 +26,6 @@ function draw()
 
 end
 
-function draw()
-  rectX = fill(245, 221, 2)
-  background(11, 24, 59)
-  
- -- draw rectangle 
- fill(0, 255, 55)
-  rect(rectX,100,100,50,50)
-  rectX = rectX + 1
 
-
-end
 
 
