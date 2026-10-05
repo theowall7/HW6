@@ -22,9 +22,9 @@ function draw()
   if cirX > width+30 then
       cirX = -30
     end
-    
-
 end
+
+
 
 
 
