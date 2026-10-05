@@ -10,12 +10,10 @@ function setup()
 end
 posX = 0
 rectX = -30
-rectY = 20
 ovalX = -30
 ovalY = 20
 greenValue = 0
 greenSpeed = 5
-ySpeed = 2
 
 
 function draw()
@@ -29,10 +27,7 @@ function draw()
     -- loop rectangle
     if rectX > width + 30 then
         rectX = -30
-    if rectY < 0 or rectY > height then
-     ySpeed = ySpeed * -1
-    end
-  end
+    end  
 
     --make circle
 fill(54,greenValue,141)
@@ -47,8 +42,7 @@ fill(54,greenValue,141)
     if greenValue < 0 or greenValue > 255 then
      greenSpeed = greenSpeed * -1
     end
-
-
+    
   end
 
 
