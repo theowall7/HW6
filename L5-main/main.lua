@@ -23,7 +23,7 @@ function draw()
     rect(rectX,100,100,100)
     -- move rectangle
     rectX = rectX + 1
-
+    -- loop rectangle
     if rectX > width + 30 then
         rectX = -30
     end
